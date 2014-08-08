@@ -1,0 +1,506 @@
+
+
+$nav:#95938d;
+$azul:#60cedd;
+$rojo:#fb7562;
+$morado:#8e45cb;
+$negro:#1b1b1a;
+
+
+@font-face {
+    font-family: 'sanchez_boldregular';
+    src: url("../fonts/sanchezbold-webfont.eot");
+    src: url("../fonts/sanchezbold-webfont.eot?#iefix") format('embedded-opentype');
+    src: url("../fonts/sanchezbold-webfont.woff") format('woff');
+    src: url("../fonts/sanchezbold-webfont.ttf") format('truetype');
+    src: url("../fonts/sanchezbold-webfont.svg#sanchez_boldregular") format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gandhi_sansregular';
+    src: url('../fonts/gandhisans-regular-webfont.eot');
+    src: url('../fonts/gandhisans-regular-webfont.eot?#iefix') format('embedded-opentype');
+    src: url('../fonts/gandhisans-regular-webfont.woff') format('woff');
+    src: url('../fonts/gandhisans-regular-webfont.ttf') format('truetype');
+    src: url('../fonts/gandhisans-regular-webfont.svg#gandhi_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body { background: url(../images/bg.jpg) repeat;}
+
+.header {width:90%;
+		margin:20px auto;
+		img {
+		float:left;
+		}	
+ }
+
+//type
+
+h1, h2, h3, h4, h5, h6 { 	font-family: 'sanchez_boldregular', serif;
+}
+
+p { font-family:'gandhi_sansregular', sans-serif;  font-size: 20px; padding-bottom: 10px; 
+
+}
+
+a { font-family:'gandhi_sansregular', sans-serif;  font-size: 20px; padding-bottom: 10px;  color:$negro;}
+
+.disclaimer { font-size:12px; color:$nav;	}
+
+h1.titulo { display: block; 
+		width: 100%;
+		line-height: 387px;
+		text-align: center;
+		font-size: 9.5em;
+		color: $azul;
+		
+		&:before{ clear: both;}
+		&:after { clear: both;}
+ }
+
+
+h1 { 
+	
+	font-size: 36px;
+	color: $morado;
+	
+	&.first{ color: $rojo;
+	font-size: 6.5em;
+		
+	}
+	
+	&.second{ color: $azul;
+	font-size: 8.8em;
+		
+		
+	}
+	
+	&.third{ color: white;
+	font-size:2.9em;
+	line-height: 6px;
+		
+	}
+	
+}
+
+h2 {
+	
+	font-size: 20px;
+	color: $azul;
+	
+}
+
+//extras
+br.clear {  clear: both;}
+
+//sections
+
+//header
+
+.nav { height:40px;
+
+	ul { height:40px;
+	 	float:right;
+		margin-top:150px;
+		
+	li { display:block; 
+		height:40px;
+		line-height:40px;
+		padding:5px;
+		list-style:none;
+		float:left;
+	a {	color:$nav; 
+		text-decoration: none;
+	
+	&.azul:hover { color:$azul;}
+	&.morado:hover { color:$morado;}
+	&.rojo:hover	{ color:$rojo;}
+	
+			}
+		}
+	}
+}
+
+
+//poster
+
+.poster { width: 100%;
+		height: 380px;
+		background: url(../images/full_poster.jpg) right bottom;
+		background-size: cover;
+		
+		.lettering { position: relative;
+			bottom:240px;
+			left: 170px;
+			width: 1000px;
+			
+		p {  color: white; 
+		padding-top: 3%;
+		font-size: 16px;
+		text-align: center;
+		font-family: 'sanchez_boldregular';
+		  }
+		
+		}
+		
+}
+.banner	{width: 12%;
+		height: 74%;
+		background: url(../images/registro_btn.png) no-repeat;
+		background-size: 100%;
+		position: relative;
+		top:-7px;
+		left:80%;
+		z-index: 5000;	
+		a{display: block; 
+		width: 100%;
+		height: 59%;
+		text-indent: -20000px; }
+		
+	
+			
+}
+
+
+
+
+.footer {width: 100%;
+		background: $morado;
+		color: white;
+		height: 180px;
+		font-family: 'gandhi_sansregular', sans-serif;
+	p { font-size: 16px;}
+
+	a { color:white; text-decoration: none;}
+		
+	h1 { color: $azul; 
+		text-decoration: underline;
+		display: block;
+		width: auto;
+		
+	span{color:$rojo;
+			
+		}
+		}
+		
+	div.col { width:225px; float: left; 
+		margin: 0 auto;
+			
+		}
+		
+	a { font-size: 16px;}
+
+ }
+
+
+//sponsors
+
+.patrocinadores { margin: 20px auto; width: 1200px; text-align: center;}
+
+.sponsors { height: 150px;  margin: 0 auto;
+	h1 	{ font-size: 46px; color: $nav; text-align: center;}
+	
+	img {float: left; display: block; line-height: 202px; padding: 0 5px;}
+}
+
+
+
+.media { height: 460px;	
+	width: 960px;
+	img {  float: left; display: block; line-height: 202px; padding: 0 5px;}
+	h1 { font-size: 26px; color: $nav; padding-top: 50px;}
+	
+
+	
+}
+
+ 
+
+.inside-footer{ width: 980px;
+	 	margin: 0 auto;
+	 	padding: 20px;
+ }
+		
+
+
+
+.wrap { width: 1200px;
+		margin: 0 auto;
+		clear: both;
+		padding: 20px;
+
+	
+} 
+
+.actividades { width: 600px; float: left; }
+.twitter { float: right; 
+	p {font-size: 16px;}
+	a { font-size: 16px;}
+	}
+
+.container { width: 960px; margin: 15px auto; 
+		h2, h3 { color: $rojo;}
+			h2, h3 { font-size:22px;}
+}
+
+.boton { height:30px; line-height: 30px; width: 100px; padding: 5px; border-radius: 7px; text-align: center; margin: 0 auto; background: $rojo;
+	a { color: white;}
+	&:hover{ background: $morado;}
+}
+.adicional { color: $nav; font-style: italic;}
+.info { width: 600px;
+	margin: 0px auto; 
+	padding-top: 25px;  
+	padding-bottom: 25px;
+	float: left;
+	
+	a { color: $rojo;}
+	
+	.hoteles { padding-top: 15px;
+	
+	ul { font-family: 'gandhi_sansregular', sans-serif;
+		
+	li {padding:0 5px;}
+	}
+	
+	
+	img{ float: left;
+		max-width: 120px;
+		padding: 5px;
+	}
+	
+
+	
+	 }
+}
+	.info h1{ font-size:36px;
+		color: $morado;
+	}
+
+.participantes { 
+
+	width: 1200px;
+	
+	h3 { color:$morado;
+	text-align: center;
+
+		
+	}
+	
+	
+	a { text-indent: -90000px;
+		overflow: hidden;
+		display: block;
+		height: 250px;
+		width: 300px;} 
+	 
+	
+	
+	
+}
+
+h1#talleres { display: block; width: 300px; height: 40px; line-height: 40px; text-align: center; color: $morado; margin: 15px auto; font-size: 46px;}
+
+
+#talleres { margin-bottom: 10px;}
+
+.centered { margin: 0 auto; }
+
+.letra 	{ background:url('../images/participantes/letra_c.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;}
+
+.choper { background:url('../images/participantes/choper_n.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;
+	
+}
+
+.salles	{ background:url('../images/participantes/eduardo_s.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;
+	}
+	
+.leonora {background:url('../images/participantes/leonora_v.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;}
+.manolo  {background:url('../images/participantes/manolo_g.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;}
+
+.manolo2  {background:url('../images/participantes/manolo_2.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;}
+
+.golpe   {background:url('../images/participantes/golpe_a.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;}
+
+.golpe2   {background:url('../images/participantes/golpe_2.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px; 
+	height: 450px;float:left;}
+
+.barna   {background:url('../images/participantes/multitouch_bcn.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;}
+	
+.christobal  {background:url('../images/participantes/christobal_h.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;}
+
+.mrkone   {background:url('../images/participantes/mrkone.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;}
+	
+
+.andres   {background:url('../images/participantes/andres_r.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;
+	
+}
+
+
+.vaio { background:url('../images/participantes/taller_sony_vaio.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;
+	
+}
+.ebooks { background:url('../images/participantes/taller_ebooks.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;
+	
+}
+.folder { background:url('../images/participantes/folderx.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;
+	
+}
+.moviles { background:url('../images/participantes/taller_moviles.jpg') top left no-repeat;
+	background-size: cover; margin:0; overflow:hidden;
+	width: 300px;
+	height: 450px;float:left;
+
+	
+}
+	
+	
+	
+@import "compass/css3";
+@import "compass/css3/transform-legacy";
+
+
+ 
+.inside	{
+		width: 300px;
+		height: auto;
+		display: block;
+		color: white;
+		position: relative;
+		
+		
+		
+	
+		
+		h3 { color: $negro;
+			font-size: 20px;
+			padding-top: 5px;
+			width: 100%;
+			background:  alpha($morado)1;	
+			
+		}
+		
+		p{
+		background: rgba(	0,0,0,0.5);
+		padding: 10px;
+		opacity: 0;
+		@include transition-property(opacity);
+		@include transition-duration(0.2s);
+		@include transition-timing-function(ease-in);
+			
+		
+		&:hover{ opacity: 1;}
+		
+		}
+
+}
+
+.salles { 
+
+	.inside{
+	
+	h3	{ color: black;}
+		
+		
+	}
+}
+
+.mrkone { 
+
+	.inside{
+	
+	h3	{ color: black;}
+		
+		
+	}
+}
+
+.manolo2 {
+	
+	.inside{
+	
+	h3	{ color: white !important;}
+		
+		
+	}
+
+}
+
+.moviles { 
+	.inside{
+	h3 { color: white;}
+	}
+}
+
+.precios { width: 250px; margin: 10px auto; float: right; }
+
+ul.chart {width: 300px;
+		font-size: 18px;
+		font-family: 'sanchez_boldregular';
+	h1 { color: white; background: $azul; display: block; text-align: center; height: 30px; line-height: 30px;}
+	
+	h2 { color: $rojo;}
+	
+	li { padding: 7px;}
+	
+
+
+	
+	
+}
+
+ @media screen and (max-width: 480px) {
+  
+  }

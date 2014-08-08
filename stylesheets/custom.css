@@ -1,0 +1,693 @@
+@font-face {
+  font-family: 'sanchez_boldregular';
+  src: url("../fonts/sanchezbold-webfont.eot");
+  src: url("../fonts/sanchezbold-webfont.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/sanchezbold-webfont.woff") format("woff");
+  src: url("../fonts/sanchezbold-webfont.ttf") format("truetype");
+  src: url("../fonts/sanchezbold-webfont.svg#sanchez_boldregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gandhi_sansregular';
+  src: url("../fonts/gandhisans-regular-webfont.eot");
+  src: url("../fonts/gandhisans-regular-webfont.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/gandhisans-regular-webfont.woff") format("woff");
+  src: url("../fonts/gandhisans-regular-webfont.ttf") format("truetype");
+  src: url("../fonts/gandhisans-regular-webfont.svg#gandhi_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 36, ../sass/custom.scss */
+body {
+  background: url(../images/bg.jpg) repeat;
+}
+
+/* line 38, ../sass/custom.scss */
+.header {
+  width: 90%;
+  margin: 20px auto;
+}
+/* line 40, ../sass/custom.scss */
+.header img {
+  float: left;
+}
+
+/* line 47, ../sass/custom.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'sanchez_boldregular', serif;
+}
+
+/* line 50, ../sass/custom.scss */
+p {
+  font-family: 'gandhi_sansregular', sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+/* line 54, ../sass/custom.scss */
+a {
+  font-family: 'gandhi_sansregular', sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #1b1b1a;
+}
+
+/* line 56, ../sass/custom.scss */
+.disclaimer {
+  font-size: 12px;
+  color: #95938d;
+}
+
+/* line 58, ../sass/custom.scss */
+h1.titulo {
+  display: block;
+  width: 100%;
+  line-height: 387px;
+  text-align: center;
+  font-size: 9.5em;
+  color: #60cedd;
+}
+/* line 65, ../sass/custom.scss */
+h1.titulo:before {
+  clear: both;
+}
+/* line 66, ../sass/custom.scss */
+h1.titulo:after {
+  clear: both;
+}
+
+/* line 70, ../sass/custom.scss */
+h1 {
+  font-size: 36px;
+  color: #8e45cb;
+}
+/* line 75, ../sass/custom.scss */
+h1.first {
+  color: #fb7562;
+  font-size: 6.5em;
+}
+/* line 80, ../sass/custom.scss */
+h1.second {
+  color: #60cedd;
+  font-size: 8.8em;
+}
+/* line 86, ../sass/custom.scss */
+h1.third {
+  color: white;
+  font-size: 2.9em;
+  line-height: 6px;
+}
+
+/* line 94, ../sass/custom.scss */
+h2 {
+  font-size: 20px;
+  color: #60cedd;
+}
+
+/* line 102, ../sass/custom.scss */
+br.clear {
+  clear: both;
+}
+
+/* line 108, ../sass/custom.scss */
+.nav {
+  height: 40px;
+}
+/* line 110, ../sass/custom.scss */
+.nav ul {
+  height: 40px;
+  float: right;
+  margin-top: 150px;
+}
+/* line 114, ../sass/custom.scss */
+.nav ul li {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px;
+  list-style: none;
+  float: left;
+}
+/* line 120, ../sass/custom.scss */
+.nav ul li a {
+  color: #95938d;
+  text-decoration: none;
+}
+/* line 123, ../sass/custom.scss */
+.nav ul li a.azul:hover {
+  color: #60cedd;
+}
+/* line 124, ../sass/custom.scss */
+.nav ul li a.morado:hover {
+  color: #8e45cb;
+}
+/* line 125, ../sass/custom.scss */
+.nav ul li a.rojo:hover {
+  color: #fb7562;
+}
+
+/* line 135, ../sass/custom.scss */
+.poster {
+  width: 100%;
+  height: 380px;
+  background: url(../images/full_poster.jpg) right bottom;
+  background-size: cover;
+}
+/* line 140, ../sass/custom.scss */
+.poster .lettering {
+  position: relative;
+  bottom: 240px;
+  left: 170px;
+  width: 1000px;
+}
+/* line 145, ../sass/custom.scss */
+.poster .lettering p {
+  color: white;
+  padding-top: 3%;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'sanchez_boldregular';
+}
+
+/* line 155, ../sass/custom.scss */
+.banner {
+  width: 12%;
+  height: 74%;
+  background: url(../images/registro_btn.png) no-repeat;
+  background-size: 100%;
+  position: relative;
+  top: -7px;
+  left: 80%;
+  z-index: 5000;
+}
+/* line 163, ../sass/custom.scss */
+.banner a {
+  display: block;
+  width: 100%;
+  height: 59%;
+  text-indent: -20000px;
+}
+
+/* line 175, ../sass/custom.scss */
+.footer {
+  width: 100%;
+  background: #8e45cb;
+  color: white;
+  height: 180px;
+  font-family: 'gandhi_sansregular', sans-serif;
+}
+/* line 180, ../sass/custom.scss */
+.footer p {
+  font-size: 16px;
+}
+/* line 182, ../sass/custom.scss */
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+/* line 184, ../sass/custom.scss */
+.footer h1 {
+  color: #60cedd;
+  text-decoration: underline;
+  display: block;
+  width: auto;
+}
+/* line 189, ../sass/custom.scss */
+.footer h1 span {
+  color: #fb7562;
+}
+/* line 194, ../sass/custom.scss */
+.footer div.col {
+  width: 225px;
+  float: left;
+  margin: 0 auto;
+}
+/* line 199, ../sass/custom.scss */
+.footer a {
+  font-size: 16px;
+}
+
+/* line 206, ../sass/custom.scss */
+.patrocinadores {
+  margin: 20px auto;
+  width: 1200px;
+  text-align: center;
+}
+
+/* line 208, ../sass/custom.scss */
+.sponsors {
+  height: 150px;
+  margin: 0 auto;
+}
+/* line 209, ../sass/custom.scss */
+.sponsors h1 {
+  font-size: 46px;
+  color: #95938d;
+  text-align: center;
+}
+/* line 211, ../sass/custom.scss */
+.sponsors img {
+  float: left;
+  display: block;
+  line-height: 202px;
+  padding: 0 5px;
+}
+
+/* line 216, ../sass/custom.scss */
+.media {
+  height: 460px;
+  width: 960px;
+}
+/* line 218, ../sass/custom.scss */
+.media img {
+  float: left;
+  display: block;
+  line-height: 202px;
+  padding: 0 5px;
+}
+/* line 219, ../sass/custom.scss */
+.media h1 {
+  font-size: 26px;
+  color: #95938d;
+  padding-top: 50px;
+}
+
+/* line 227, ../sass/custom.scss */
+.inside-footer {
+  width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* line 235, ../sass/custom.scss */
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  clear: both;
+  padding: 20px;
+}
+
+/* line 243, ../sass/custom.scss */
+.actividades {
+  width: 600px;
+  float: left;
+}
+
+/* line 244, ../sass/custom.scss */
+.twitter {
+  float: right;
+}
+/* line 245, ../sass/custom.scss */
+.twitter p {
+  font-size: 16px;
+}
+/* line 246, ../sass/custom.scss */
+.twitter a {
+  font-size: 16px;
+}
+
+/* line 249, ../sass/custom.scss */
+.container {
+  width: 960px;
+  margin: 15px auto;
+}
+/* line 250, ../sass/custom.scss */
+.container h2, .container h3 {
+  color: #fb7562;
+}
+/* line 251, ../sass/custom.scss */
+.container h2, .container h3 {
+  font-size: 22px;
+}
+
+/* line 254, ../sass/custom.scss */
+.boton {
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 7px;
+  text-align: center;
+  margin: 0 auto;
+  background: #fb7562;
+}
+/* line 255, ../sass/custom.scss */
+.boton a {
+  color: white;
+}
+/* line 256, ../sass/custom.scss */
+.boton:hover {
+  background: #8e45cb;
+}
+
+/* line 258, ../sass/custom.scss */
+.adicional {
+  color: #95938d;
+  font-style: italic;
+}
+
+/* line 259, ../sass/custom.scss */
+.info {
+  width: 600px;
+  margin: 0px auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  float: left;
+}
+/* line 265, ../sass/custom.scss */
+.info a {
+  color: #fb7562;
+}
+/* line 267, ../sass/custom.scss */
+.info .hoteles {
+  padding-top: 15px;
+}
+/* line 269, ../sass/custom.scss */
+.info .hoteles ul {
+  font-family: 'gandhi_sansregular', sans-serif;
+}
+/* line 271, ../sass/custom.scss */
+.info .hoteles ul li {
+  padding: 0 5px;
+}
+/* line 275, ../sass/custom.scss */
+.info .hoteles img {
+  float: left;
+  max-width: 120px;
+  padding: 5px;
+}
+
+/* line 284, ../sass/custom.scss */
+.info h1 {
+  font-size: 36px;
+  color: #8e45cb;
+}
+
+/* line 288, ../sass/custom.scss */
+.participantes {
+  width: 1200px;
+}
+/* line 292, ../sass/custom.scss */
+.participantes h3 {
+  color: #8e45cb;
+  text-align: center;
+}
+/* line 299, ../sass/custom.scss */
+.participantes a {
+  text-indent: -90000px;
+  overflow: hidden;
+  display: block;
+  height: 250px;
+  width: 300px;
+}
+
+/* line 310, ../sass/custom.scss */
+h1#talleres {
+  display: block;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #8e45cb;
+  margin: 15px auto;
+  font-size: 46px;
+}
+
+/* line 313, ../sass/custom.scss */
+#talleres {
+  margin-bottom: 10px;
+}
+
+/* line 315, ../sass/custom.scss */
+.centered {
+  margin: 0 auto;
+}
+
+/* line 317, ../sass/custom.scss */
+.letra {
+  background: url("../images/participantes/letra_c.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 322, ../sass/custom.scss */
+.choper {
+  background: url("../images/participantes/choper_n.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 329, ../sass/custom.scss */
+.salles {
+  background: url("../images/participantes/eduardo_s.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 335, ../sass/custom.scss */
+.leonora {
+  background: url("../images/participantes/leonora_v.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 339, ../sass/custom.scss */
+.manolo {
+  background: url("../images/participantes/manolo_g.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 344, ../sass/custom.scss */
+.manolo2 {
+  background: url("../images/participantes/manolo_2.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 349, ../sass/custom.scss */
+.golpe {
+  background: url("../images/participantes/golpe_a.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 354, ../sass/custom.scss */
+.golpe2 {
+  background: url("../images/participantes/golpe_2.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 359, ../sass/custom.scss */
+.barna {
+  background: url("../images/participantes/multitouch_bcn.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 364, ../sass/custom.scss */
+.christobal {
+  background: url("../images/participantes/christobal_h.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 369, ../sass/custom.scss */
+.mrkone {
+  background: url("../images/participantes/mrkone.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 375, ../sass/custom.scss */
+.andres {
+  background: url("../images/participantes/andres_r.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 383, ../sass/custom.scss */
+.vaio {
+  background: url("../images/participantes/taller_sony_vaio.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 389, ../sass/custom.scss */
+.ebooks {
+  background: url("../images/participantes/taller_ebooks.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 395, ../sass/custom.scss */
+.folder {
+  background: url("../images/participantes/folderx.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 401, ../sass/custom.scss */
+.moviles {
+  background: url("../images/participantes/taller_moviles.jpg") top left no-repeat;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  float: left;
+}
+
+/* line 416, ../sass/custom.scss */
+.inside {
+  width: 300px;
+  height: auto;
+  display: block;
+  color: white;
+  position: relative;
+}
+/* line 427, ../sass/custom.scss */
+.inside h3 {
+  color: #1b1b1a;
+  font-size: 20px;
+  padding-top: 5px;
+  width: 100%;
+  background: 1 1;
+}
+/* line 435, ../sass/custom.scss */
+.inside p {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  opacity: 0;
+  -moz-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+/* line 444, ../sass/custom.scss */
+.inside p:hover {
+  opacity: 1;
+}
+
+/* line 454, ../sass/custom.scss */
+.salles .inside h3 {
+  color: black;
+}
+
+/* line 464, ../sass/custom.scss */
+.mrkone .inside h3 {
+  color: black;
+}
+
+/* line 474, ../sass/custom.scss */
+.manolo2 .inside h3 {
+  color: white !important;
+}
+
+/* line 483, ../sass/custom.scss */
+.moviles .inside h3 {
+  color: white;
+}
+
+/* line 487, ../sass/custom.scss */
+.precios {
+  width: 250px;
+  margin: 10px auto;
+  float: right;
+}
+
+/* line 489, ../sass/custom.scss */
+ul.chart {
+  width: 300px;
+  font-size: 18px;
+  font-family: 'sanchez_boldregular';
+}
+/* line 492, ../sass/custom.scss */
+ul.chart h1 {
+  color: white;
+  background: #60cedd;
+  display: block;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+/* line 494, ../sass/custom.scss */
+ul.chart h2 {
+  color: #fb7562;
+}
+/* line 496, ../sass/custom.scss */
+ul.chart li {
+  padding: 7px;
+}
