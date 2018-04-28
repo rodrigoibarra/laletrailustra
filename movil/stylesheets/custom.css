@@ -1,0 +1,488 @@
+/* line 9, ../sass/custom.scss */
+h1.titulo {
+  display: block;
+  width: 100%;
+  line-height: 387px;
+  text-align: center;
+  font-size: 9.5em;
+  color: #60cedd;
+}
+/* line 16, ../sass/custom.scss */
+h1.titulo:before {
+  clear: both;
+}
+/* line 17, ../sass/custom.scss */
+h1.titulo:after {
+  clear: both;
+}
+
+/* line 21, ../sass/custom.scss */
+h1 {
+  font-size: 36px;
+  color: #8e45cb;
+}
+/* line 26, ../sass/custom.scss */
+h1.first {
+  color: #fb7562;
+  font-size: 5.5em;
+  text-align: center;
+}
+/* line 32, ../sass/custom.scss */
+h1.second {
+  color: #60cedd;
+  font-size: 6.8em;
+  text-align: center;
+}
+/* line 39, ../sass/custom.scss */
+h1.third {
+  color: white;
+  font-size: 1.45em;
+  line-height: 6px;
+  text-align: center;
+}
+
+/* line 48, ../sass/custom.scss */
+h2 {
+  font-size: 20px;
+  color: #60cedd;
+}
+
+/* line 55, ../sass/custom.scss */
+.header {
+  width: 100%;
+  margin: 10px;
+}
+/* line 59, ../sass/custom.scss */
+.header img {
+  text-align: center;
+}
+/* line 62, ../sass/custom.scss */
+.header a {
+  display: block;
+  text-align: center;
+}
+
+/* line 69, ../sass/custom.scss */
+.nav {
+  height: 40px;
+  margin: 0 auto;
+  width: 90%;
+}
+/* line 73, ../sass/custom.scss */
+.nav ul {
+  height: 40px;
+  float: right;
+  margin-top: 0px;
+}
+/* line 77, ../sass/custom.scss */
+.nav ul li {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px;
+  list-style: none;
+  float: left;
+}
+/* line 83, ../sass/custom.scss */
+.nav ul li a {
+  color: #95938d;
+  text-decoration: none;
+}
+/* line 86, ../sass/custom.scss */
+.nav ul li a.azul:hover {
+  color: #60cedd;
+}
+/* line 87, ../sass/custom.scss */
+.nav ul li a.morado:hover {
+  color: #8e45cb;
+}
+/* line 88, ../sass/custom.scss */
+.nav ul li a.rojo:hover {
+  color: #fb7562;
+}
+
+/* line 95, ../sass/custom.scss */
+.poster {
+  width: 100%;
+  height: auto;
+  background: url(../images/full_poster.jpg) right bottom no-repeat;
+  background-size: cover;
+}
+/* line 100, ../sass/custom.scss */
+.poster .lettering {
+  position: inherit;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+/* line 113, ../sass/custom.scss */
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  padding: 0px;
+}
+
+/* line 121, ../sass/custom.scss */
+.banner {
+  display: none;
+}
+
+/* line 128, ../sass/custom.scss */
+.container {
+  width: 90%;
+  margin: 15px auto;
+}
+/* line 129, ../sass/custom.scss */
+.container h2, .container h3 {
+  color: #fb7562;
+}
+/* line 130, ../sass/custom.scss */
+.container h2, .container h3 {
+  font-size: 22px;
+}
+
+/* line 133, ../sass/custom.scss */
+.precios {
+  width: 100%;
+  margin: 0px auto;
+  float: none;
+}
+
+/* line 135, ../sass/custom.scss */
+ul.chart {
+  width: 300px;
+  font-size: 18px;
+  font-family: 'sanchez_boldregular';
+}
+/* line 138, ../sass/custom.scss */
+ul.chart h1 {
+  color: white;
+  background: #60cedd;
+  display: block;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+/* line 140, ../sass/custom.scss */
+ul.chart h2 {
+  color: #fb7562;
+  text-align: center;
+}
+/* line 142, ../sass/custom.scss */
+ul.chart li {
+  padding: 7px;
+}
+
+/* line 151, ../sass/custom.scss */
+.actividades {
+  width: 100%;
+  float: none;
+}
+
+/* line 152, ../sass/custom.scss */
+.twitter {
+  float: right;
+  display: none;
+}
+/* line 154, ../sass/custom.scss */
+.twitter p {
+  font-size: 16px;
+}
+/* line 155, ../sass/custom.scss */
+.twitter a {
+  font-size: 16px;
+}
+
+/* line 161, ../sass/custom.scss */
+.boton {
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 7px;
+  text-align: center;
+  margin: 0 auto;
+  background: #fb7562;
+}
+/* line 162, ../sass/custom.scss */
+.boton a {
+  color: white;
+}
+/* line 163, ../sass/custom.scss */
+.boton:hover {
+  background: #8e45cb;
+}
+
+/* line 165, ../sass/custom.scss */
+.adicional {
+  color: #95938d;
+  font-style: italic;
+}
+
+/* line 166, ../sass/custom.scss */
+.info {
+  width: 100%;
+  margin: 0px auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  float: left;
+  text-align: justify;
+}
+/* line 173, ../sass/custom.scss */
+.info a {
+  color: #fb7562;
+}
+/* line 175, ../sass/custom.scss */
+.info .hoteles {
+  padding-top: 15px;
+}
+/* line 177, ../sass/custom.scss */
+.info .hoteles ul {
+  font-family: 'gandhi_sansregular', sans-serif;
+}
+/* line 179, ../sass/custom.scss */
+.info .hoteles ul li {
+  padding: 0 5px;
+}
+/* line 183, ../sass/custom.scss */
+.info .hoteles img {
+  float: left;
+  max-width: 120px;
+  padding: 5px;
+}
+
+/* line 192, ../sass/custom.scss */
+.info h1 {
+  font-size: 36px;
+  color: #8e45cb;
+}
+
+/* line 196, ../sass/custom.scss */
+.participantes {
+  width: 100%;
+}
+/* line 200, ../sass/custom.scss */
+.participantes h3 {
+  color: #8e45cb;
+  text-align: center;
+}
+/* line 207, ../sass/custom.scss */
+.participantes a {
+  text-indent: -90000px;
+  overflow: hidden;
+  display: block;
+  height: 250px;
+  width: 300px;
+}
+
+/* line 218, ../sass/custom.scss */
+h1#talleres {
+  display: block;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #8e45cb;
+  margin: 15px auto;
+  font-size: 46px;
+}
+
+/* line 221, ../sass/custom.scss */
+#talleres {
+  margin-bottom: 10px;
+}
+
+/* line 223, ../sass/custom.scss */
+.centered {
+  margin: 0 auto;
+}
+
+/* line 225, ../sass/custom.scss */
+.letra {
+  width: 100%;
+  height: 650px;
+  float: left;
+  display: none;
+}
+
+/* line 230, ../sass/custom.scss */
+.choper {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 237, ../sass/custom.scss */
+.salles {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 243, ../sass/custom.scss */
+.leonora {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 247, ../sass/custom.scss */
+.manolo {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 252, ../sass/custom.scss */
+.manolo2 {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 257, ../sass/custom.scss */
+.golpe {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 262, ../sass/custom.scss */
+.golpe2 {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 267, ../sass/custom.scss */
+.barna {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 272, ../sass/custom.scss */
+.christobal {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 277, ../sass/custom.scss */
+.mrkone {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 283, ../sass/custom.scss */
+.andres {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+/* line 298, ../sass/custom.scss */
+.inside {
+  width: 100%;
+  height: auto;
+  display: block;
+  color: white;
+  position: relative;
+}
+/* line 310, ../sass/custom.scss */
+.inside h3 {
+  color: #1b1b1a;
+  font-size: 20px;
+  padding-top: 5px;
+  width: 100%;
+  background: 1 1;
+}
+/* line 318, ../sass/custom.scss */
+.inside p {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  opacity: 1;
+  height: 300px;
+  position: relative;
+  top: 420px;
+}
+/* line 328, ../sass/custom.scss */
+.inside p:hover {
+  opacity: 1;
+}
+
+/* line 336, ../sass/custom.scss */
+img.horarios {
+  width: 100%;
+}
+
+/* line 341, ../sass/custom.scss */
+.patrocinadores {
+  margin: 0px auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 343, ../sass/custom.scss */
+.sponsors {
+  height: 150px;
+  margin: 0 auto;
+}
+/* line 344, ../sass/custom.scss */
+.sponsors h1 {
+  font-size: 46px;
+  color: #95938d;
+  text-align: center;
+}
+/* line 346, ../sass/custom.scss */
+.sponsors img {
+  text-align: center;
+  width: 70px;
+}
+
+/* line 349, ../sass/custom.scss */
+.media {
+  height: 150px;
+  display: hide;
+}
+/* line 350, ../sass/custom.scss */
+.media img {
+  float: left;
+  display: block;
+  line-height: 100px;
+  padding: 25px;
+}
+/* line 351, ../sass/custom.scss */
+.media h1 {
+  font-size: 26px;
+  color: #95938d;
+}
+
+/* line 357, ../sass/custom.scss */
+.footer {
+  width: 100%;
+  height: auto;
+}
+
+/* line 363, ../sass/custom.scss */
+div.col {
+  width: 225px;
+  float: none;
+  margin: 0 auto;
+}
+
+/* line 372, ../sass/custom.scss */
+.foot_nav {
+  display: none;
+}
+
+/* line 375, ../sass/custom.scss */
+.inside-footer {
+  width: 92%;
+  margin: 0 auto;
+  padding: 20px;
+}

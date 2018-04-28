@@ -1,0 +1,379 @@
+
+
+$nav:#95938d;
+$azul:#60cedd;
+$rojo:#fb7562;
+$morado:#8e45cb;
+$negro:#1b1b1a;
+
+h1.titulo { display: block; 
+		width: 100%;
+		line-height: 387px;
+		text-align: center;
+		font-size: 9.5em;
+		color: $azul;
+		
+		&:before{ clear: both;}
+		&:after { clear: both;}
+ }
+
+
+h1 { 
+	
+	font-size: 36px;
+	color: $morado;
+	
+	&.first{ color: $rojo;
+	font-size: 5.5em;
+	text-align: center;
+		
+	}
+	
+	&.second{ color: $azul;
+	font-size: 6.8em;
+	text-align: center;
+		
+		
+	}
+	
+	&.third{ color: white;
+	font-size: 1.45em;
+	line-height: 6px;
+	text-align: center;
+		
+	}
+	
+}
+
+h2 {
+	
+	font-size: 20px;
+	color: $azul;
+	
+}
+//header
+.header {width:100%;
+ 	
+		margin:10px;;
+		
+		img {
+		text-align: center;
+		}	
+		a {display: block; 
+		text-align: center;}		
+ }
+ 
+
+
+
+.nav { height:40px;
+	margin: 0 auto;
+	width: 90%;
+
+	ul { height:40px;
+	 	float:right;
+		margin-top:0px;
+		
+	li { display:block; 
+		height:40px;
+		line-height:40px;
+		padding:5px;
+		list-style:none;
+		float:left;
+	a {	color:$nav; 
+		text-decoration: none;
+	
+	&.azul:hover { color:$azul;}
+	&.morado:hover { color:$morado;}
+	&.rojo:hover	{ color:$rojo;}
+	
+			}
+		}
+	}
+}
+
+.poster { width: 100%;
+		height: auto;
+		background: url(../images/full_poster.jpg) right bottom no-repeat;
+		background-size: cover;
+		
+		.lettering { position: inherit;
+			bottom:0px;
+			left: 0px;
+			width: 100%;
+			padding: 20px 0px;
+			
+			  }
+		
+		}
+		
+		
+
+
+.wrap { width: 100%;
+		margin: 0 auto;
+		clear: both;
+		padding: 0px;
+
+	
+} 
+
+.banner	{display: none;
+		
+	
+			
+}
+
+
+.container { width: 90%; margin: 15px auto; 
+		h2, h3 { color: $rojo;}
+			h2, h3 { font-size:22px;}
+}
+
+.precios { width: 100%; margin: 0px auto; float: none; }
+
+ul.chart {width: 300px;
+		font-size: 18px;
+		font-family: 'sanchez_boldregular';
+	h1 { color: white; background: $azul; display: block; text-align: center; height: 30px; line-height: 30px;}
+	
+	h2 { color: $rojo; text-align: center;}
+	
+	li { padding: 7px;}
+	
+
+
+	
+	
+}
+
+
+.actividades { width: 100%; float: none;  }
+.twitter { float: right; display: none;
+
+	p {font-size: 16px;}
+	a { font-size: 16px;}
+	
+	}
+
+
+
+.boton { height:30px; line-height: 30px; width: 100px; padding: 5px; border-radius: 7px; text-align: center; margin: 0 auto; background: $rojo;
+	a { color: white;}
+	&:hover{ background: $morado;}
+}
+.adicional { color: $nav; font-style: italic;}
+.info { width: 100%;
+	margin: 0px auto; 
+	padding-top: 25px;  
+	padding-bottom: 25px;
+	float: left;
+	text-align: justify;
+	
+	a { color: $rojo;}
+	
+	.hoteles { padding-top: 15px;
+	
+	ul { font-family: 'gandhi_sansregular', sans-serif;
+		
+	li {padding:0 5px;}
+	}
+	
+	
+	img{ float: left;
+		max-width: 120px;
+		padding: 5px;
+	}
+	
+
+	
+	 }
+}
+	.info h1{ font-size:36px;
+		color: $morado;
+	}
+
+.participantes { 
+
+	width: 100%;
+	
+	h3 { color:$morado;
+	text-align: center;
+
+		
+	}
+	
+	
+	a { text-indent: -90000px;
+		overflow: hidden;
+		display: block;
+		height: 250px;
+		width: 300px;} 
+	 
+	
+	
+	
+}
+
+h1#talleres { display: block; width: 300px; height: 40px; line-height: 40px; text-align: center; color: $morado; margin: 15px auto; font-size: 46px;}
+
+
+#talleres { margin-bottom: 10px;}
+
+.centered { margin: 0 auto; }
+
+.letra 	{ 
+	
+	width: 100%;
+	height: 650px;float:left; display: none;}
+
+.choper { 
+	
+	width: 100%;
+	height: 650px;float:left;
+	
+}
+
+.salles	{ 
+	
+	width: 100%;
+	height: 650px;float:left;
+	}
+	
+.leonora {
+	
+	width: 100%;
+	height: 650px;float:left;}
+.manolo  {
+	
+	width: 100%;
+	height: 650px;float:left;}
+
+.manolo2 { 
+	
+	width: 100%;
+	height: 650px;float:left;}
+
+.golpe   {
+	
+	width: 100%;
+	height: 650px;float:left;}
+
+.golpe2  {
+	
+	width: 100%; 
+	height: 650px;float:left;}
+
+.barna   {
+	
+	width: 100%;
+	height: 650px;float:left;}
+	
+.christobal {
+	
+	width: 100%;
+	height: 650px;float:left;}
+
+.mrkone  {  
+	
+	width: 100%;
+	height: 650px;float:left;}
+	
+
+.andres {   
+	
+	width: 100%;
+	height: 650px;float:left;
+	
+}
+	
+	
+	
+	
+@import "compass/css3";
+@import "compass/css3/transform-legacy";
+
+
+ 
+.inside	{
+		width: 100%;
+		height: auto;
+		display: block;
+		color: white;
+		position: relative;
+		
+		
+		
+		
+	
+		
+		h3 { color: $negro;
+			font-size: 20px;
+			padding-top: 5px;
+			width: 100%;
+			background:  alpha($morado)1;	
+			
+		}
+		
+		p{
+		background: rgba(	0,0,0,0.5);
+		padding: 10px;
+		opacity: 1;
+		height: 300px;
+	
+		position: relative;
+		top:420px;
+			
+		
+		&:hover{ opacity: 1;}
+		
+		}
+
+}
+
+
+
+img.horarios { width: 100%;}
+
+
+//sponsors
+
+.patrocinadores { margin: 0px auto; width:100%; text-align: center;  }
+
+.sponsors { height: 150px;  margin: 0 auto;
+	h1 	{ font-size: 46px; color: $nav; text-align: center;}
+	
+	img { text-align: center; width: 70px;}
+}
+
+.media { height: 150px;	display: hide;
+	img { float: left; display: block; line-height: 100px; padding: 25px;}
+	h1 { font-size: 26px; color: $nav;}
+	
+}
+
+
+
+.footer {width: 100%;
+		height: auto;
+		
+			
+		}
+		
+	div.col { width:225px; float: none; 
+		margin: 0 auto;
+			
+		}
+		
+
+
+ 
+
+.foot_nav { display: none;}
+
+
+.inside-footer{ width: 92%;
+	 	margin: 0 auto;
+	 	padding: 20px;
+ }
+
